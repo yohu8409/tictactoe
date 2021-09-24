@@ -17,10 +17,18 @@ void DisplayBoard(std::string matrix[3][3]){
     }
     std::cout << std::endl;
   }
+  std::cout<<std::endl;
+}
+
+void PlaceMarker(std::string matrix[3][3], int location[2], std::string marker){
+  matrix[location[0]][location[1]] = marker;
 }
 
 int main(){
   std::string matrix[3][3];
   CreateBoard(matrix);
+  DisplayBoard(matrix);
+  int place[2] = {1,2};
+  PlaceMarker(matrix, place, "O");
   DisplayBoard(matrix);
 }
