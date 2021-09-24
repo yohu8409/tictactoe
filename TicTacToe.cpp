@@ -10,7 +10,7 @@ void CreateBoard(std::string matrix[3][3]){
   }
 }
 
-void DisplayBoard(string matrix[3][3]){
+void DisplayBoard(std::string matrix[3][3]){
   for(int i = 0; i < 3; i++){
     for(int j = 0; j < 3; j++){
       std::cout << matrix[i][j] << " ";
