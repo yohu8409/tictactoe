@@ -1,0 +1,84 @@
+Player 1's turn
+_ _ _
+_ _ _
+_ _ _
+
+Select the location (1 to 3 in row):
+2
+Select the location (1 to 3 in col):
+2
+Player 2's turn
+_ _ _
+_ X _
+_ _ _
+
+Select the location (1 to 3 in row):
+1
+Select the location (1 to 3 in col):
+1
+Player 1's turn
+O _ _
+_ X _
+_ _ _
+
+Select the location (1 to 3 in row):
+1
+Select the location (1 to 3 in col):
+3
+Player 2's turn
+O _ X
+_ X _
+_ _ _
+
+Select the location (1 to 3 in row):
+3
+Select the location (1 to 3 in col):
+1
+Player 1's turn
+O _ X
+_ X _
+O _ _
+
+Select the location (1 to 3 in row):
+2
+Select the location (1 to 3 in col):
+1
+Player 2's turn
+O _ X
+X X _
+O _ _
+
+Select the location (1 to 3 in row):
+2
+Select the location (1 to 3 in col):
+3
+Player 1's turn
+O _ X
+X X O
+O _ _
+
+Select the location (1 to 3 in row):
+3
+Select the location (1 to 3 in col):
+3
+Player 2's turn
+O _ X
+X X O
+O _ X
+
+Select the location (1 to 3 in row):
+1
+Select the location (1 to 3 in col):
+2
+Player 1's turn
+O O X
+X X O
+O _ X
+
+Select the location (1 to 3 in row):
+3
+Select the location (1 to 3 in col):
+2
+O O X
+X X O
+O X X
