@@ -28,7 +28,4 @@ int main(){
   std::string matrix[3][3];
   CreateBoard(matrix);
   DisplayBoard(matrix);
-  int place[2] = {1,2};
-  PlaceMarker(matrix, place, "O");
-  DisplayBoard(matrix);
 }
