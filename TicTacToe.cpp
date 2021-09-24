@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 
 void CreateBoard(std::string matrix[3][3]){
@@ -22,5 +21,6 @@ void DisplayBoard(string matrix[3][3]){
 
 int main(){
   std::string matrix[3][3];
+  CreateBoard(matrix);
   DisplayBoard(matrix);
 }
