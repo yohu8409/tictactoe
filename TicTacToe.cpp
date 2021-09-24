@@ -8,7 +8,7 @@ void GetPlayerChoice(int arr[2]){
   std::cout << "Select the location (1 to 3 in col): " << std::endl;
   std::string s2;
   std::cin >> s2;
-  
+
   int num1;
   int num2;
   if (s1 == "1"){
@@ -57,7 +57,22 @@ void PlaceMarker(std::string matrix[3][3], int location[2], std::string marker){
 
 int main(){
   int arr[2];
+  std::string marker = "";
   std::string matrix[3][3];
   CreateBoard(matrix);
+  for(int i = 0; i < 9; i++){
+    if(i%2 == 0){
+      std::cout<<"Player 1's turn"<<std::endl;
+      marker = "X";
+    }
+    else{
+      std::cout<<"Player 2's turn"<<std::endl;
+      marker = "O";
+    }
+    DisplayBoard(matrix);
+    GetPlayerChoice(arr);
+    PlaceMarker(matrix,arr,marker);
+  }
   DisplayBoard(matrix);
+
 }
